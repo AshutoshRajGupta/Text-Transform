@@ -1,3 +1,45 @@
 Django is a Python-based web framework that allows you to quickly create efficient web applications. 
 It is also called batteries included framework because Django provides built-in features for everything 
 including Django Admin Interface, default database – SQLlite3, etc.
+
+
+Django architecture
+Django is based on MVT (Model-View-Template) architecture. MVT is a software design pattern for developing a web application.
+
+MVT Structure has the following three parts –
+
+Model: Model is going to act as the interface of your data. It is responsible for maintaining data. 
+It is the logical data structure behind the entire application and is represented by a database (generally relational databases such as MySql, Postgres).
+
+View: The View is the user interface — what you see in your browser when you render a website. It is represented by HTML/CSS/Javascript and Jinja files.
+
+Template: A template consists of static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted.
+
+
+
+# Install Django- Install django by giving following command-
+--pip install django
+
+
+# Creating a Project
+Method 1
+# To initiate a project of Django on Your PC, open Terminal and Enter the following command
+ --django-admin startproject projectName
+ 
+ 
+ Method-2
+# To create a basic app in your Django project you need to go to the directory containing manage.py and from there enter the command :
+--python manage.py startapp projectApp
+
+
+# A New Folder with name projectName will be created. To enter in the project using terminal enter command
+--cd projectName
+
+# Now run,
+
+--Python manage.py runserver
+Now visit http://localhost:8000/,
+
+
+# To create a basic app in your Django project you need to go to directory containing manage.py and from there enter the command :
+--python manage.py startapp projectApp
