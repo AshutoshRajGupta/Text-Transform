@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <title>Text Transforms</title>
+
+    <style>
+      h2{ text-align:center;
+           color:green;
+           text-transform:uppercase;
+           padding:15px;
+           margin:10px;
+           }
+
+      h5{
+          text-transform:none;
+          padding:5px;
+          text-indent:40px;
+          margin:10px;
+          }
+
+      h4{
+         padding:10px;
+         margin:10px 10px;
+         font-weight:bold;
+         font-size:30px;
+         }
+    </style>
   </head>
   <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -22,7 +45,7 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/">About Us</a>
+        <a class="nav-link" href="#">About Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="form">Contact Us</a>
@@ -37,7 +60,12 @@
 </nav>
 
   <div>
-      <h1>About us page</h1>
+      <h2 class="head_text">About us page</h2>
+      <h4 id="text">Text Transform is a web application where you can enter a random text and you can perform various functions like:</h4>
+    <h5 class="fun_text">1. Remove punctuations</h5>
+    <h5 class="fun_text">2. Converting to uppercase</h5>
+    <h5 class="fun_text">3. New line remover</h5>
+    <h5 class="fun_text">4. Extra space remover</h5>
   </div>
   </body>
 </html>
